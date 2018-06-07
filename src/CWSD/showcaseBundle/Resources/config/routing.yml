@@ -1,0 +1,4 @@
+cwsd_homepage:
+    path:     /home
+    defaults: { _controller: CWSDshowcaseBundle:Showcase:index }
+

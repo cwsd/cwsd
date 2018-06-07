@@ -1,0 +1,4 @@
+cwsd_showcase:
+    resource: "@CWSDshowcaseBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,4 @@
+services:
+#    cws_dshowcase.example:
+#        class: CWSD\showcaseBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
