@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bienvenue sur ma première page avec OpenClassrooms !</title>
+    <title></title>
 
     {% stylesheets 'css/cwsd.css' %}
     <link  rel="stylesheet" href="{{ asset('css/cwsd.css') }}" type="text/css" >
@@ -24,19 +24,48 @@
 
 <body>
 
+<nav class="navbar navbar-fixed-top" id="cwsdNavbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="cwsdLogo" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
+                {% endimage %}
+            </a>
+        </div>
+        <ul class="nav navbar-nav" id="cwsdUl">
+            <li class="active"><a href="#">Accueil</a></li>
+            <li><a href="#">Présentation</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Réalisations</a></li>
+            <li><a href="#">Disponibilités</a></li>
+            <li><a href="#">Devis</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+    </div>
+</nav>
 
 
-<div id="hello">
-    <h1>Hello World !</h1>
+
+<div id="subLogo">
+
+    <p>
+        Conception web & stratégie digitale
+    </p>
+
+    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+    <img id="coding" src="{{ asset('images/coding.png') }}" alt="" />
+    {% endimage %}
+
+    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+    <img id="list" src="{{ asset('images/list.png') }}" alt="" />
+    {% endimage %}
+
 </div>
 
-<p>
-
-    Le Hello World est un grand classique en programmation.
 
 
-
-</p>
 
 </body>
 

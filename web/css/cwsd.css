@@ -1,5 +1,51 @@
-#hello h1 {
+#subLogo p {
 
-    color: red;
+    color: #2f488f;
     font-family: "ubuntu";
+    font-size: 17px;
+    position: relative;
+    top:100px;;
+    left:150px
+}
+/******* Navbar ***********************************/
+
+#cwsdNavbar {
+
+    font-family: Ubuntu;
+    background-color: #f4ab0f;
+    font-size: 20px;
+    height: 100px;
+    top:150px;
+
+
+}
+
+#cwsdNavbar a{
+         color: white;
+     }
+
+#cwsdNavbar a:hover{
+
+    background-color: #f4ab0f;
+    color: #2f488f;
+}
+
+/*** images ****/
+
+#cwsdLogo {
+
+    position: relative;
+    top:-190px;
+}
+
+#coding {
+    position: relative;
+    left:190px;
+
+}
+
+#list {
+    position: relative;
+    left:190px;
+
 }
