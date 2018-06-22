@@ -24,17 +24,84 @@
 
 <body>
 
+{% image '@CWSDshowcaseBundle/Resources/public/images' %}
+<img id="cwsdLogo" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
+{% endimage %}
+
+<div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth" id="alohaVideo">
+            <source src="{{ asset('images/Aloha-Mundo.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </div>
+</div>
+
+<div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth" id="Agile">
+            <source src="{{ asset('images/Agile.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </div>
+</div>
+
+<div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth" id="keyboard">
+            <source src="{{ asset('images/White-Keyboard.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </div>
+</div>
+
+<div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth" id="androidScroll">
+            <source src="{{ asset('images/Android-Scroll.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </div>
+</div>
+
+<div class="container" id="creez">
+    <h1>CREATION</h1>
+</div>
+
+<div class="container" id="innovez">
+    <h1>INNOVATION</h1>
+</div>
+
+<div class="container" id="communiquez">
+    <h1>COMMUNICATION</h1>
+</div>
+
+<div class="container" id="evoluez">
+    <h1>EVOLUTION</h1>
+</div>
+
+<div id="subLogo">
+
+    <p>
+        Conception web & stratégie digitale
+    </p>
+
+    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+    <img id="coding" src="{{ asset('images/coding.png') }}" alt="" />
+    {% endimage %}
+
+    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+    <img id="list" src="{{ asset('images/list.png') }}" alt="" />
+    {% endimage %}
+
+</div>
+
+
 <nav class="navbar navbar-fixed-top" id="cwsdNavbar">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-
-            </a>
+            <a class="navbar-brand" href="#"></a>
         </div>
-
-        {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-        <img id="cwsdLogo" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
-        {% endimage %}
 
         {% image '@CWSDshowcaseBundle/Resources/public/images' %}
         <img id="homeLogo" src="{{ asset('images/home.png') }}" alt="" />
@@ -79,23 +146,24 @@
     </div>
 </nav>
 
-
-
-<div id="subLogo">
-
-    <p>
-        Conception web & stratégie digitale
-    </p>
+<div class="container" id="ancrePresentation">
 
     {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-    <img id="coding" src="{{ asset('images/coding.png') }}" alt="" />
+    <img id="man" src="{{ asset('images/man.jpg') }}" alt="" />
     {% endimage %}
 
     {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-    <img id="list" src="{{ asset('images/list.png') }}" alt="" />
+    <img id="strategy" src="{{ asset('images/strategy.png') }}" alt="" />
     {% endimage %}
+
+    <h2>PRESENTATION</h2>
+
+
 
 </div>
+
+
+
 
 
 

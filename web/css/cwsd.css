@@ -1,11 +1,90 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 #subLogo p {
 
     color: #2f488f;
     font-family: "ubuntu";
     font-size: 17px;
     position: relative;
-    top:100px;
+    top:-1420px;
     left:150px;
+}
+
+#creez h1 {
+
+    color: #f4ab0f;
+    font-family: "ubuntu";
+    font-size: 90px;
+    position: relative;
+    top:-1055px;
+    left:130px;
+    animation-name:textloop;
+    animation-duration: 5s;
+
+
+}
+
+#communiquez h1 {
+
+    color: white;
+    font-family: "ubuntu";
+    font-size: 90px;
+    position: relative;
+    top:-1240px;
+    left:200px;
+    animation-name:textloop;
+    animation-duration: 5s;
+
+}
+
+#innovez h1 {
+
+    color: #2f488f;
+    font-family: "ubuntu";
+    font-size: 90px;
+    position: relative;
+    top:-1180px;
+    left:650px;
+    animation-name:textloop;
+    animation-duration: 5s;
+
+}
+
+#evoluez h1 {
+
+    color: #d01536;
+    font-family: "ubuntu";
+    font-size: 90px;
+    position: relative;
+    top:-1370px;
+    left:1000px;
+    animation-name:textloop;
+    animation-duration: 5s;
+
+}
+
+@keyframes textloop {
+    0% {opacity:0;}
+    100% {opacity: 1;}
+
+
+
+}
+
+#ancrePresentation h2 {
+
+    position: relative;
+    font-family: "ubuntu";
+    color: #2f488f;
+    font-size:40px;
+    top:-1990px;
+    left:-260px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
 }
 /******* Navbar ***********************************/
 
@@ -16,6 +95,7 @@
     font-size: 20px;
     height: 100px;
     top:150px;
+    opacity:0.98;
 
 
 }
@@ -31,6 +111,7 @@
     background-color: #2f488f;
     opacity:0.8;
     height:100px;
+    color: #f4ab0f;
 }
 
 #cwsdUl {
@@ -44,36 +125,40 @@
 #cwsdLogo {
 
     position: relative;
-    top:-180px;
-    left:-850px;
+    top:-30px;
+    left:0px;
 }
 
 #coding {
     position: relative;
-    left:190px;
+    left:180px;
+    top:-1520px;
 
 }
 
 #list {
     position: relative;
     left:190px;
+    top:-1520px;
 
 }
 
 #homeLogo {
 
     position: relative;
-    left: -885px;
-    top: -40px;
+    left: -680px;
+    top: 40px;
 
 }
+
+
 
 #boardLogo {
     height:50px;
     width:auto;
     position: relative;
-    left:-820px;
-    top:-40px;
+    left:-610px;
+    top:40px;
 
 }
 
@@ -81,8 +166,8 @@
     height:40px;
     width:auto;
     position: relative;
-    left:-740px;
-    top:-40px;
+    left:-535px;
+    top:40px;
 
 }
 
@@ -90,8 +175,8 @@
     height:40px;
     width:auto;
     position: relative;
-    left:-670px;
-    top:-40px;
+    left:-470px;
+    top:40px;
 
 }
 
@@ -99,8 +184,8 @@
     height:40px;
     width:auto;
     position: relative;
-    left:-570px;
-    top:-40px;
+    left:-360px;
+    top:40px;
 
 }
 
@@ -108,8 +193,8 @@
     height:35px;
     width:auto;
     position: relative;
-    left:-495px;
-    top:-40px;
+    left:-285px;
+    top:40px;
 
 }
 
@@ -117,7 +202,61 @@
     height:35px;
     width:auto;
     position: relative;
-    left:-445px;
-    top:-40px;
+    left:-235px;
+    top:40px;
+
+}
+
+#alohaVideo {
+    position: relative;
+    height:200px;
+    top:-230px;
+    left:845px;
+
+
+}
+
+#Agile {
+    position: relative;
+    height:200px;
+    top:-435px;
+    left:1200px;
+
+
+}
+
+#keyboard {
+    position: relative;
+    height:200px;
+    top:-640px;
+    left:490px;
+
+
+}
+
+#androidScroll {
+    position: relative;
+    height:200px;
+    top:-845px;
+    left:1555px;
+
+
+}
+
+#man {
+
+    position: relative;
+    top:-1464px;
+    height:600px;
+    left:700px;
+
+}
+
+#strategy {
+
+    position: relative;
+    top:-1600px;
+    left:-770px;
+    height:60px;
 
 }
