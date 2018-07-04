@@ -9,10 +9,10 @@ html, body {
 
     color: #2f488f;
     font-family: "ubuntu";
-    font-size: 17px;
+    font-size: 20px;
     position: relative;
-    top:-1390px;
-    left:100px;
+    bottom:1470px;
+    left:140px;
 }
 
 #creez h1 {
@@ -83,25 +83,37 @@ html, body {
 #cwsdNavbar {
 
     font-family: Ubuntu;
-    font-size: 20px;
-    height: 100px;
-    top:130px;
-    left:440px;
+    font-size: 25px;
+    height: 55px;
+    width:1980px;
+    top:170px;
+    left:0px;
     opacity:1;
+    background-color: #2f488f;
+
+}
+
+#navContainer {
+
 
 
 }
 
 #cwsdNavbar a{
 
-    color: #2f488f;
+    color: white;
+    bottom:50px;
+    left:370px;
+
+
+
 
      }
 
 #cwsdNavbar a:hover{
 
     color: #f4ab0f;
-    height: 50px;
+    height: 55px;
     border-bottom-style:solid;
     border-color: #f4ab0f;
     animation-name:textloop;
@@ -127,8 +139,6 @@ html, body {
     top:-1464px;
     left:-720px;
 
-
-
 }
 
 #ancrePresentation p {
@@ -136,7 +146,7 @@ html, body {
     height:300px;
     width:800px;
     color:#2f488f;
-    left:620px;
+    left:1300px;
     top:125px;
     font-family:Ubuntu;
     font-size: 20px;
@@ -148,10 +158,10 @@ html, body {
     height:300px;
     width:800px;
     color:#2f488f;
-    left:1320px;
-    bottom:300px;
+    left:1260px;
+    bottom:450px;
     font-family:Ubuntu;
-    font-size: 20px;
+    font-size: 17px;
 
 }
 
@@ -176,7 +186,7 @@ html, body {
     position: relative;
     top:130px;
     color:#2f488f;
-    left:620px;
+    left:1300px;
     font-family:Ubuntu;
 }
 
@@ -186,7 +196,7 @@ html, body {
 
     position: relative;
     top:-20px;
-    left:150px;
+    right:20px;
 }
 
 
@@ -232,8 +242,8 @@ html, body {
     position:relative;
     height:30px;
     width:auto;
-    right:740px;
-    top:60px;
+    right:300px;
+    top:10px;
 
 }
 
@@ -241,8 +251,8 @@ html, body {
     position:relative;
     height:30px;
     width:auto;
-    left:75px;
-    top:60px;
+    left:530px;
+    top:10px;
 
 }
 
@@ -251,6 +261,15 @@ html, body {
     position: relative;
     height:350px;
     left:700px;
-    bottom:100px;
+    bottom:200px;
+
+}
+
+#mockup {
+
+    position: relative;
+    height:350px;
+    left:1350px;
+    bottom:200px;
 
 }

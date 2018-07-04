@@ -91,19 +91,9 @@
 
 
 <nav class="navbar navbar-fixed-top" id="cwsdNavbar">
-    <div class="container-fluid">
+    <div class="container-fluid" id="navContainer">
         <div class="navbar-header">        </div>
 
-
-
-        {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-        <img id="diamond" src="{{ asset('images/diamond2.png') }}" alt="" />
-        {% endimage %}
-
-
-        {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-        <img id="diamond2" src="{{ asset('images/diamond2.png') }}" alt="" />
-        {% endimage %}
 
 
 
@@ -126,7 +116,7 @@
     <h2 id="h2Pres">NOTRE OBJECTIF</h2>
 
     <p>
-        Mettre notre expertise au service du <strong>développement</strong>
+        Mettre notre expertise au service du <strong>développement</strong><br>
         de nos clients.
     </p>
 
@@ -134,8 +124,12 @@
     <img id="book" src="{{ asset('images/book.jpeg') }}" alt="" />
     {% endimage %}
 
+    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+    <img id="mockup" src="{{ asset('images/mockup.jpg') }}" alt="" />
+    {% endimage %}
+
     <ul style="list-style-type:none">
-        <li>Quel que soit votre but, nous travaillons à :</li><br>
+        <li>Quel que soit votre but, nous travaillons à :</li>
         <li>- l'amélioration de <strong>l'expérience</strong> de vos utilisateurs</li>
         <li>- augmenter votre <strong>e-notoriété</strong></li>
         <li>- parfaire votre offre grâce aux <strong>retours clients</strong></li>
