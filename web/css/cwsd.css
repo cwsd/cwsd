@@ -1,6 +1,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    height:100%;
 }
 
 /**header******************/
@@ -114,7 +115,6 @@ html, body {
 
     color: #f4ab0f;
     height: 55px;
-    border-bottom-style:solid;
     border-color: #f4ab0f;
     animation-name:textloop;
     animation-duration: 0.4s;
@@ -135,33 +135,97 @@ html, body {
 
     position: relative;
     height:600px;
-    width:1570px;
-    top:-1464px;
-    left:-720px;
+    width:500px;
+    bottom:1530px;
+    left:50px;
+
 
 }
 
-#ancrePresentation p {
+#presP1 {
     position: relative;
     height:300px;
     width:800px;
-    color:#2f488f;
-    left:1300px;
-    top:125px;
+    color:#d01536;
+    left:0px;
+    top:0px;
     font-family:Ubuntu;
     font-size: 20px;
 
 }
+
+
+#presP2 {
+    position: relative;
+    height:300px;
+    width:800px;
+    color:#2f488f;
+    left:0px;
+    bottom:250px;
+    font-family:Ubuntu;
+    font-size: 19px;
+
+}
+
+#presP3 {
+    position: relative;
+    height:300px;
+    width:800px;
+    color:#2f488f;
+    left:0px;
+    bottom:400px;
+    font-family:Ubuntu;
+    font-size: 19px;
+
+}
+
+#presP4 {
+    position: relative;
+    height:300px;
+    width:800px;
+    color:#2f488f;
+    left:400px;
+    bottom:760px;
+    font-family:Ubuntu;
+    font-size: 19px;
+
+}
+
+#presP5 {
+    position: relative;
+    height:300px;
+    width:800px;
+    color:#2f488f;
+    left:0px;
+    bottom:930px;
+    font-family:Ubuntu;
+    font-size: 19px;
+
+}
+
+#presP6 {
+    position: relative;
+    height:300px;
+    width:800px;
+    color:#2f488f;
+    left:400px;
+    bottom:1290px;
+    font-family:Ubuntu;
+    font-size: 19px;
+
+}
+
+
 
 #ancrePresentation ul {
     position: relative;
     height:300px;
     width:800px;
     color:#2f488f;
-    left:1260px;
-    bottom:450px;
+    left:150px;
+    bottom:2250px;
     font-family:Ubuntu;
-    font-size: 17px;
+    font-size: 19px;
 
 }
 
@@ -171,25 +235,59 @@ html, body {
 
     position: relative;
     font-family: "ubuntu";
-    color: #f4ab0f;
+    color: #d01536;
     font-size:40px;
-    top:-1950px;
+    bottom:2150px;
     left:-400px;
     writing-mode: vertical-lr;
     text-orientation: upright;
-    border-left-style:solid;
-    border-right-style:solid;
+
 }
 
 #h2Pres {
 
     position: relative;
-    top:130px;
+    top:-10px;
+    height:50px;
+    width:250px;
     color:#2f488f;
-    left:1300px;
+    left:0px;
     font-family:Ubuntu;
+    border-top: solid #d01536;
+    border-bottom: solid #d01536;
 }
 
+#spanpresP3 {
+    color: #d01536;
+    position:relative;
+    top:20px;
+    left:30px;
+
+}
+
+#spanpresP4 {
+    color: #d01536;
+    position:relative;
+    top:20px;
+    left:60px;
+
+}
+
+#spanpresP5 {
+    color: #d01536;
+    position:relative;
+    top:20px;
+    left:60px;
+
+}
+
+#spanpresP6 {
+    color: #d01536;
+    position:relative;
+    top:20px;
+    left:60px;
+
+}
 /*** images ****/
 
 #cwsdLogo {
@@ -259,17 +357,71 @@ html, body {
 #book {
 
     position: relative;
-    height:350px;
-    left:700px;
-    bottom:200px;
+    height:450px;
+    right:650px;
+    bottom:2140px;
 
 }
 
 #mockup {
 
     position: relative;
-    height:350px;
-    left:1350px;
-    bottom:200px;
+    height:380px;
+    right:620px;
+    bottom:2100px;
+
+}
+
+#codingWall {
+
+    position: relative;
+    height:220px;
+    width:491px;
+    left:0px;
+    bottom:1625px;
+    opacity:0.2;
+
+}
+
+#stop {
+    position: relative;
+    height:20px;
+    left:250px;
+    bottom:1225px;
+    color:#f4ab0f;
+}
+
+#board {
+
+    position: relative;
+    bottom:360px;
+
+
+}
+
+#todo {
+
+    position: relative;
+    bottom:720px;
+    left:400px;
+
+
+}
+
+#listening {
+
+    position: relative;
+    bottom:890px;
+    left:0px;
+
+
+}
+
+#sharing {
+
+    position: relative;
+    bottom:1250px;
+    left:400px;
+
 
 }

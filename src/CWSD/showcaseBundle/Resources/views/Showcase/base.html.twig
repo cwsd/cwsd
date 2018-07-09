@@ -24,78 +24,82 @@
 
 <body>
 
-{% image '@CWSDshowcaseBundle/Resources/public/images' %}
-<img id="cwsdLogo" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
-{% endimage %}
 
-<div class="homepage-hero-module">
-    <div class="video-container">
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth" id="alohaVideo">
-            <source src="{{ asset('images/Aloha-Mundo.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
+<header>
+    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+    <img id="cwsdLogo" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
+    {% endimage %}
+
+    <div class="homepage-hero-module">
+        <div class="video-container">
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth" id="alohaVideo">
+                <source src="{{ asset('images/Aloha-Mundo.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
     </div>
-</div>
 
-<div class="homepage-hero-module">
-    <div class="video-container">
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth" id="Agile">
-            <source src="{{ asset('images/Agile.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
+    <div class="homepage-hero-module">
+        <div class="video-container">
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth" id="Agile">
+                <source src="{{ asset('images/Agile.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
     </div>
-</div>
 
-<div class="homepage-hero-module">
-    <div class="video-container">
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth" id="keyboard">
-            <source src="{{ asset('images/White-Keyboard.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
+    <div class="homepage-hero-module">
+        <div class="video-container">
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth" id="keyboard">
+                <source src="{{ asset('images/White-Keyboard.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
     </div>
-</div>
 
-<div class="homepage-hero-module">
-    <div class="video-container">
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth" id="androidScroll">
-            <source src="{{ asset('images/Android-Scroll.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
+    <div class="homepage-hero-module">
+        <div class="video-container">
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth" id="androidScroll">
+                <source src="{{ asset('images/Android-Scroll.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
     </div>
-</div>
 
-<div class="container" id="creez">
-    <h1>CREATION</h1>
-</div>
+    <div class="container" id="creez">
+        <h1>CREATION</h1>
+    </div>
 
-<div class="container" id="innovez">
-    <h1>INNOVATION</h1>
-</div>
+    <div class="container" id="innovez">
+        <h1>INNOVATION</h1>
+    </div>
 
-<div class="container" id="communiquez">
-    <h1>COMMUNICATION</h1>
-</div>
+    <div class="container" id="communiquez">
+        <h1>COMMUNICATION</h1>
+    </div>
 
-<div class="container" id="evoluez">
-    <h1>EVOLUTION</h1>
-</div>
+    <div class="container" id="evoluez">
+        <h1>EVOLUTION</h1>
+    </div>
 
-<div id="subLogo">
+    <div id="subLogo">
 
-    <p>
-        Conception web & stratégie digitale
-    </p>
+        <p>
+            Conception web & stratégie digitale
+        </p>
 
 
-</div>
+    </div>
 
+    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+    <img id="codingWall" src="{{ asset('images/codingWall.jpg') }}" alt="" />
+    {% endimage %}
+
+</header>
 
 <nav class="navbar navbar-fixed-top" id="cwsdNavbar">
     <div class="container-fluid" id="navContainer">
         <div class="navbar-header">        </div>
-
-
-
 
 
         <ul class="nav navbar-nav" id="cwsdUl">
@@ -111,38 +115,99 @@
     </div>
 </nav>
 
-<div class="container" id="ancrePresentation">
 
-    <h2 id="h2Pres">NOTRE OBJECTIF</h2>
+<section>{#ancre presentation************************************#}
+    <article>
+        <div class="container" id="ancrePresentation">
 
-    <p>
-        Mettre notre expertise au service du <strong>développement</strong><br>
-        de nos clients.
-    </p>
+            <h2 id="h2Pres">NOTRE OBJECTIF</h2>
 
-    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-    <img id="book" src="{{ asset('images/book.jpeg') }}" alt="" />
-    {% endimage %}
+            <p id="presP1">
+                <em>Mettre notre expertise au service du <strong>développement</strong>
+                    de nos clients.</em><br>
+            </p>
 
-    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-    <img id="mockup" src="{{ asset('images/mockup.jpg') }}" alt="" />
-    {% endimage %}
+            <p id="presP2">
 
-    <ul style="list-style-type:none">
-        <li>Quel que soit votre but, nous travaillons à :</li>
-        <li>- l'amélioration de <strong>l'expérience</strong> de vos utilisateurs</li>
-        <li>- augmenter votre <strong>e-notoriété</strong></li>
-        <li>- parfaire votre offre grâce aux <strong>retours clients</strong></li>
-    </ul>
+                Internet offre une multitudes d'opportunités et d'outils aux entreprises.<br>
+                Chaque projet ayant sa spécificité, notre maitrise technique nous permet<br>
+                de vous accompagnez du début au lancement de votre projet et lors de sa<br>
+                maintenance.<br><br> Pour y parvenir nous nous appuyons sur des valeurs  :
+            </p>
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="board" src="{{ asset('images/board.png') }}" alt="" />
+            {% endimage %}
+
+            <p id="presP3">
+
+                <span id="spanpresP3">TRANSPARENCE</span> <br><br>
+                Du devis à la réalisation, chaque étape<br> vous est expliquée et soumise à validation.<br>
+                Nous créons ensemble.
+
+            </p>
 
 
-</div>
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="todo" src="{{ asset('images/todo.png') }}" alt="" />
+            {% endimage %}
 
-<div class="container" id="titlePresentation">
-    <h2>PRESENTATION</h2>
-</div>
+            <p id="presP4">
+
+                <span id="spanpresP4">RIGUEUR</span> <br><br>
+                Que la méthodologie choisie soit agile,<br> itérative ou traditionnelle la finalité demeure<br> le respect des coûts et des délais.
 
 
+            </p>
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="listening" src="{{ asset('images/listening.png') }}" alt="" />
+            {% endimage %}
+
+            <p id="presP5">
+
+                <span id="spanpresP5">ECOUTE</span> <br><br>
+                L'aboutissement de votre projet passe par<br> la compréhension de vos besoins.
+
+            </p>
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="sharing" src="{{ asset('images/sharing.png') }}" alt="" />
+            {% endimage %}
+
+            <p id="presP6">
+
+                <span id="spanpresP6">OUVERTURE D'ESPRIT</span> <br><br>
+                Nous sommes en perpétuel apprentissage pour<br> vous apporter un panel de solutions.
+            </p>
+
+
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="book" src="{{ asset('images/book.jpeg') }}" alt="" />
+            {% endimage %}
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="mockup" src="{{ asset('images/mockup.jpg') }}" alt="" />
+            {% endimage %}
+
+            <ul style="list-style-type:none">
+                <li>Quel que soit votre but, nous travaillons à :</li>
+                <li>- l'amélioration de <strong>l'expérience</strong> de vos utilisateurs</li>
+                <li>- augmenter votre <strong>e-notoriété</strong></li>
+                <li>- parfaire votre offre grâce aux <strong>retours clients</strong></li>
+            </ul>
+        </div>
+    </article>
+
+    <aside>
+        <div class="container" id="titlePresentation">
+            <h2>PRESENTATION</h2>
+        </div>
+
+    </aside>
+
+</section>
 
 
 
