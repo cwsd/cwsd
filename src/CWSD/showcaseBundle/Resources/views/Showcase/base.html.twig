@@ -26,6 +26,19 @@
 
 
 <header>
+
+    <div class="homepage-hero-module">
+        <div class="video-container">
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth" id="loveCoding">
+                <source src="{{ asset('images/Love-Coding.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
+    </div>
+
+
+
+
     {% image '@CWSDshowcaseBundle/Resources/public/images' %}
     <img id="cwsdLogo" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
     {% endimage %}
@@ -247,7 +260,7 @@
             <div class="container" id="imgSer2">
 
                 {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-                <img id="acquisition" src="{{ asset('images/acquisition.jpg') }}" alt="" class="image" />
+                <img id="acquisitionImg" src="{{ asset('images/acquisition.jpg') }}" alt="" class="image" />
                 {% endimage %}
 
                 <div class="overlay" id="overlaySer1">
@@ -259,6 +272,26 @@
                 </div>
 
             </div>
+
+            <div class="container" id="imgSer3">
+
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="socialMedia" src="{{ asset('images/social.jpg') }}" alt="" class="image" />
+                {% endimage %}
+
+                <div class="overlay" id="overlaySer1">
+                    <div class="text">
+
+                        <button class="button " id="buttonDev">En savoir plus</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
 
             <div class="container" id="developpement">
 
@@ -290,6 +323,23 @@
                     Référencement naturel<br>
                     Référencement payant<br>
                     Campagne display
+
+                </p>
+            </div>
+
+
+            <div class="container" id="social">
+
+                <h3><strong>SOCIAL MEDIA</strong></h3>
+
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="stop3" src="{{ asset('images/stop.png') }}" alt="" class="image" />
+                {% endimage %}
+
+                <p>
+
+                    Community Management<br>
+                    Relations influenceurs
 
                 </p>
             </div>

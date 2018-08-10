@@ -25,7 +25,8 @@ html, body {
     top:-995px;
     left:130px;
     animation-name:textloop;
-    animation-duration: 5s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 
 
 }
@@ -39,7 +40,8 @@ html, body {
     top:-1180px;
     left:200px;
     animation-name:textloop;
-    animation-duration: 5s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 
 }
 
@@ -52,7 +54,8 @@ html, body {
     top:-1120px;
     left:650px;
     animation-name:textloop;
-    animation-duration: 5s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 
 }
 
@@ -65,17 +68,24 @@ html, body {
     top:-1310px;
     left:1000px;
     animation-name:textloop;
-    animation-duration: 5s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 
 }
 
 @keyframes textloop {
     0% {opacity:0;}
-    100% {opacity: 1;}
-
-
+    50% {opacity:1;}
+    100% {opacity: 0;}
 
 }
+
+@keyframes textloop2 {
+    0% {opacity:0;}
+    100% {opacity: 1;}
+
+}
+
 
 
 
@@ -120,15 +130,15 @@ html, body {
     color: #f4ab0f;
     height: 55px;
     border-color: #f4ab0f;
-    animation-name:textloop;
-    animation-duration: 0.4s;
-    background-color: white;
+    animation-name:textloop2;
+    animation-duration: 0.8s;
+    background-color: #2f488f;
 }
 
 #cwsdUl {
 
     position: relative;
-    left:105px;
+    right:400px;
     top:50px;
 }
 
@@ -304,12 +314,13 @@ html, body {
 
 /*ancre services **********************************************************************/
 
+
 #titleServices h2 {
 
     position: relative;
     font-family: Ubuntu;
     font-size:40px;
-    bottom:2970px;
+    bottom:3450px;
     right:400px;
     /* writing-mode: vertical-lr;
     text-orientation: upright; */
@@ -320,6 +331,9 @@ html, body {
     padding-top:10px;
 
 }
+
+
+
 
 #h2Ser {
 
@@ -353,7 +367,7 @@ html, body {
     font-size: 19px;
     font-family: Ubuntu;
     color:#2f488f;
-    bottom:2080px;
+    bottom:2430px;
 
 }
 
@@ -363,7 +377,7 @@ html, body {
     font-size: 19px;
     font-family: Ubuntu;
     color:#2f488f;
-    bottom:2080px;
+    bottom:2430px;
     right:80px;
 
 }
@@ -374,8 +388,8 @@ html, body {
     font-size: 19px;
     font-family: Ubuntu;
     color:#2f488f;
-    bottom:2245px;
-    left:600px;
+    bottom:2595px;
+    left:550px;
 
 }
 
@@ -385,8 +399,30 @@ html, body {
     font-size: 19px;
     font-family: Ubuntu;
     color:#2f488f;
-    bottom:2245px;
-    left:560px;
+    bottom:2590px;
+    left:510px;
+
+}
+
+#social h3 {
+
+    position: relative;
+    font-size: 19px;
+    font-family: Ubuntu;
+    color:#2f488f;
+    bottom:2750px;
+    left:1060px;
+
+}
+
+#social p {
+
+    position: relative;
+    font-size: 19px;
+    font-family: Ubuntu;
+    color:#2f488f;
+    bottom:2750px;
+    left:1020px;
 
 }
 
@@ -399,7 +435,7 @@ html, body {
 
     position: relative;
     width: 45%;
-    background-color: red;
+    /*background-color: red;*/
     bottom:1750px;
     right:460px;
     padding-right:-15px;
@@ -410,10 +446,22 @@ html, body {
 
     position: relative;
     width: 45%;
-    background-color: red;
+    /*background-color: red;*/
     bottom:2091px;
     left:60px;
     padding-right:-15px;
+
+}
+
+#imgSer3 {
+
+    position: relative;
+    width: 45%;
+    height: 345px;
+    /*background-color: red;*/
+    bottom:2435px;
+    left:580px;
+    padding-right: 130px;
 
 }
 
@@ -441,6 +489,11 @@ html, body {
     height: 100%;
 }
 
+#imgSer3:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
 .text {
     color: white;
     font-size: 20px;
@@ -464,7 +517,7 @@ html, body {
 
 }
 
-#acquisition {
+#acquisitionImg {
 
     position: relative;
     height:auto;
@@ -475,6 +528,18 @@ html, body {
 
 
 }
+
+#socialMedia {
+
+    position: relative;
+    height:345px;
+    display: block;
+    width:139.5%;
+    right:15px;
+
+
+}
+
 
 #buttonDev {
     background-color: white;
@@ -488,6 +553,16 @@ html, body {
 
 
 /*** images ***************************************************************************/
+
+
+#loveCoding {
+    position: relative;
+    height:100%;
+    top:25px;
+    left:0px;
+
+
+}
 
 #cwsdLogo {
 
@@ -579,12 +654,13 @@ html, body {
     left:0px;
     bottom:1575px;
     opacity:0.2;
+    padding-top: 20px;
 
 }
 
 #stop {
     position: relative;
-    bottom:2085px;
+    bottom:2435px;
     left:70px;
     height:15px;
 }
@@ -636,7 +712,14 @@ html, body {
 
 #stop2 {
     position: relative;
-    bottom:2250px;
-    left:650px;
+    bottom:2600px;
+    left:600px;
+    height:15px;
+}
+
+#stop3 {
+    position: relative;
+    bottom:2755px;
+    left:1125px;
     height:15px;
 }
