@@ -27,13 +27,14 @@
 
 <header>
 
+
+
     <div class="homepage-hero-module">
-        <div class="video-container">
-            <div class="filter"></div>
-            <video autoplay loop class="fillWidth" id="loveCoding">
-                <source src="{{ asset('images/Love-Coding.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            </video>
-        </div>
+            <div class="video-container" id="videoHomepage" >
+                <video autoplay loop class="fillWidth" id="loveCoding">
+                    <source src="{{ asset('images/Love-Coding.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                </video>
+            </div>
     </div>
 
 
@@ -110,9 +111,33 @@
 
 </header>
 
+<div class="container" id="slideHomepage">
+
+    <div id="titleSlideH">
+
+
+
+        <h1>CWSD.FR <em><strong>conception web et stratégie digitale</strong></em></h1>
+
+        <h2>Pilotez votre communication digitale</h2>
+
+        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+            <span class="glyphicon glyphicon-chevron-down " id="glyphiconDown"></span>
+        </button>
+
+    </div>
+
+</div>
+
 <nav class="navbar navbar-fixed-top" id="cwsdNavbar">
     <div class="container-fluid" id="navContainer">
-        <div class="navbar-header">        </div>
+        <div class="navbar-header">
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="cwsdLogo2" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
+            {% endimage %}
+
+        </div>
 
 
         <ul class="nav navbar-nav" id="cwsdUl">
@@ -124,8 +149,12 @@
             <li><a href="#">Devis</a></li>
             <li><a href="#">Contact</a></li>
 
+
         </ul>
     </div>
+
+
+
 </nav>
 
 
