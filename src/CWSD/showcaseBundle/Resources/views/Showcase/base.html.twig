@@ -30,11 +30,11 @@
 
 
     <div class="homepage-hero-module">
-            <div class="video-container" id="videoHomepage" >
-                <video autoplay loop class="fillWidth" id="loveCoding">
-                    <source src="{{ asset('images/Love-Coding.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                </video>
-            </div>
+        <div class="video-container" id="videoHomepage" >
+            <video autoplay loop class="fillWidth" id="loveCoding">
+                <source src="{{ asset('images/Love-Coding.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
     </div>
 
 
@@ -117,13 +117,57 @@
 
 
 
-        <h1>CWSD.FR <em><strong>conception web et stratégie digitale</strong></em></h1>
+        <p><strong>CWSD</strong></p> <h1><em>Conception web et stratégie digitale</em></h1>
 
-        <h2>Pilotez votre communication digitale</h2>
 
-        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
-            <span class="glyphicon glyphicon-chevron-down " id="glyphiconDown"></span>
-        </button>
+        <h4>Paris 2018</h4>
+
+        <div class="container" id="conseiller">
+            <h1>Vous conseiller</h1>
+        </div>
+
+        <div class="container" id="accompagner">
+            <h1>Vous accompagner</h1>
+        </div>
+
+        <div class="container" id="developper">
+            <h1>Vous développer</h1>
+        </div>
+
+
+
+        {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+        <img id="idea" src="{{ asset('images/idea.jpg') }}" alt="" />
+        {% endimage %}
+
+        {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+        <img id="check" src="{{ asset('images/check.jpg') }}" alt="" />
+        {% endimage %}
+
+        {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+        <img id="can" src="{{ asset('images/can.jpg') }}" alt="" />
+        {% endimage %}
+
+
+
+    </div>
+
+</div>
+
+<div class="container" id="slideHomepage2">
+
+    <div id="SlideH2Text">
+
+        <h1>
+            Résultat d'une réflexion sur le role d'une agence web,
+            CWSD se veut en partenaire de votre croissance.<br><br>
+            Vous trouverez une équipe dédiée à vos projets, prête
+            à relever vos défis.
+
+        </h1>
+
+        <p>En savoir plus<span class="glyphicon glyphicon-chevron-down " id="glyphiconDown"></span></p>
+
 
     </div>
 
@@ -388,11 +432,40 @@
         <div class="container" id="titleServices">
             <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                SERVICES</h2>
+                SERVICES
+
+            </h2>
         </div>
 
     </aside>
 
+
+
+</section>
+
+
+
+
+<section> {#ancre realisations****************************#}
+
+    <article>
+
+
+
+
+
+    </article>
+
+    <aside>
+        <div class="container" id="titleRealisations">
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                REALISATIONS
+
+            </h2>
+
+
+    </aside>
 
 
 </section>
