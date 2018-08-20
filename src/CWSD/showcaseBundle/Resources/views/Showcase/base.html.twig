@@ -19,6 +19,14 @@
     <link href="http://fonts.googleapis.com/css?family=Fenix" rel="stylesheet" type="text/css">
     {% endstylesheets %}
 
+    {% javascripts 'js/cwsd.js' %}
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/cwsd.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/bootstrap.js') }}"></script>
+
+    {% endjavascripts %}
+
+
 
 </head>
 
@@ -449,8 +457,39 @@
 <section> {#ancre realisations****************************#}
 
     <article>
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+            </ul>
 
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                    <img id="" src="{{ asset('images/cwsd.png') }}" alt="" class="image" />
+                    {% endimage %}
+                </div>
+
+                <div class="carousel-item">
+                    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                    <img id="" src="{{ asset('images/niceDiving.png') }}" alt="" class="image" />
+                    {% endimage %}
+
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
 
 
 
@@ -463,6 +502,8 @@
                 REALISATIONS
 
             </h2>
+
+        </div>
 
 
     </aside>
