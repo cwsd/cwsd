@@ -19,12 +19,7 @@
     <link href="http://fonts.googleapis.com/css?family=Fenix" rel="stylesheet" type="text/css">
     {% endstylesheets %}
 
-    {% javascripts 'js/cwsd.js' %}
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/cwsd.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/bootstrap.js') }}"></script>
 
-    {% endjavascripts %}
 
 
 
@@ -457,40 +452,217 @@
 <section> {#ancre realisations****************************#}
 
     <article>
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <h2 id="h2Rea">NOS PROJETS</h2>
 
+        <p id="presRea">
+            <em> Ils nous ont fait <strong>confiance </strong>
+                <br>
+            </em>
+        </p>
+
+        <div id="titleCarou1"><strong>spotmydive.fr</strong></div>
+        <div id="titleCarou2"><strong>cwsd.fr</strong></div>
+        <div id="titleCarou3"><strong>En cours</strong></div>
+
+
+
+
+        {#carousel 1-------------------#}
+        <div id="carouselRea" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
-            <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-            </ul>
+            <ol class="carousel-indicators">
+                <li data-target="#carouselRea" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselRea" data-slide-to="1"></li>
+                <li data-target="#carouselRea" data-slide-to="2"></li>
+            </ol>
 
-            <!-- The slideshow -->
+            <!-- Wrapper for slides -->
             <div class="carousel-inner">
-                <div class="carousel-item active">
+
+                <div class="item active">
                     {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-                    <img id="cwsd" src="{{ asset('images/cwsd.png') }}" alt="" class="image" />
+                    <img id="smdcapt4" src="{{ asset('images/smdcapt4.png') }}" alt="" class="image" />
                     {% endimage %}
                 </div>
 
-                <div class="carousel-item">
+
+
+                <div class="item ">
+                    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                    <img id="smdcapt3" src="{{ asset('images/smdcapt3.png') }}" alt="" class="image" />
+                    {% endimage %}
+                </div>
+
+
+
+
+                <div class="item">
                     {% image '@CWSDshowcaseBundle/Resources/public/images' %}
                     <img id="niceDiving" src="{{ asset('images/niceDiving.png') }}" alt="" class="image" />
                     {% endimage %}
-
                 </div>
+
 
             </div>
 
             <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+            <a class="left carousel-control" href="#carouselRea" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
+            <a class="right carousel-control" href="#carouselRea" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
             </a>
+
+            {#flip---------------#}
+
+            <div id="flip">+ - détails</div>
+            <div id="panel">
+
+                <div id="descClient"><span>Client :</span> &nbsp;&nbsp;Spotmydive</div>
+                <div id="descMission"><span>Mission :</span>&nbsp;&nbsp; Maintenance application web</div>
+                <div id="descStat"><span>Statut :</span> &nbsp; Online</div>
+                <div id="descSite"><a href="https://www.spotmydive.com/fr/" target="_blank">Site</a></div>
+
+
+                <br>
+                <div id="descREs">Start up dynamique, nous avons eu le plaisir de les accompagner dans
+                    leur refonte graphique et la création de fonctionnalités nouvelles. </div>
+
+
+            </div>
+
+
         </div>
 
+
+
+        {#carousel2---------------#}
+
+        <div id="carouselRea2" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselRea2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselRea2" data-slide-to="1"></li>
+                <li data-target="#carouselRea2" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                    <img id="cwsdCapture2" src="{{ asset('images/cwsdCapture2.png') }}" alt="" class="image" />
+                    {% endimage %}
+                </div>
+
+
+
+                <div class="item ">
+                    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                    <img id="cwsdCapture2" src="{{ asset('images/cwsdCapture2.png') }}" alt="" class="image" />
+                    {% endimage %}
+                </div>
+
+
+
+
+                <div class="item">
+                    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                    <img id="cwsdCapture2" src="{{ asset('images/cwsdCapture2.png') }}" alt="" class="image" />
+                    {% endimage %}
+                </div>
+
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#carouselRea2" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carouselRea2" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+
+            {#flip2----------------#}
+
+            <div id="flip2">+ - détails</div>
+            <div id="panel2">
+
+                <div id="descClient2"><span>Client :</span> &nbsp;&nbsp;Cwsd.fr</div>
+                <div id="descMission2"><span>Mission :</span>&nbsp;&nbsp;Création application web</div>
+                <div id="descStat2"><span>Statut :</span> &nbsp; Online</div>
+                <div id="descSite2"><a href="https://www.cwsd.fr" target="_blank">Site</a></div>
+
+                <br>
+                <div id="descREs2">Parce qu'on est jamais mieux servi que par soi même. </div>
+
+
+            </div>
+
+
+
+        </div>
+
+        {#carousel3********************#}
+
+        <div id="carouselRea3" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselRea3" data-slide-to="0" class="active"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                    <img id="enCoursPix" src="{{ asset('images/enCours.jpg') }}" alt="" class="image" />
+                    {% endimage %}
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#carouselRea3" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carouselRea3" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+
+            {#flip3----------------#}
+
+            <div id="flip3">+ - détails</div>
+            <div id="panel3">
+
+                <div id="descClient3"><span>Client :</span> &nbsp;&nbsp;</div>
+                <div id="descMission3"><span>Mission :</span>&nbsp;&nbsp;</div>
+                <div id="descStat3"><span>Statut :</span> &nbsp; </div>
+                <div id="descSite3"><a href="https://www.cwsd.fr" target="_blank">Site</a></div>
+
+                <br>
+                <div id="descREs3">Projet en cours. </div>
+
+
+            </div>
+
+
+
+        </div>
 
 
     </article>
@@ -508,6 +680,49 @@
 
     </aside>
 
+
+
+
+</section>
+
+
+<section>
+
+    {#ancre disponibilités***************************#}
+
+    <article>
+
+        <div class="">
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="clock" src="{{ asset('images/clock.jpg') }}" alt="" class="image" />
+            {% endimage %}
+        </div>
+
+
+        <iframe id="cwsdCal" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;
+    bgcolor=%23FFFFFF&amp;src=ralaindimby%40gmail.com&amp;color=%2329527A&amp;
+    ctz=Europe%2FParis" style="border-width:0" width="500" height="500" frameborder="0" scrolling="no">
+
+        </iframe>
+
+    </article>
+
+    <aside>
+        <div class="container" id="titleDispo">
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                DISPONIBILITES
+
+            </h2>
+
+            <p>Cet agenda vous permet de voir nos disponibilités en temps réel.<br>
+               Pour plus de détails n'hésitez pas à nous contacter.<span class="glyphicon glyphicon-chevron-down " id="glyphiconDown2"></span>
+            </p>
+
+        </div>
+
+
+    </aside>
 
 </section>
 

@@ -771,20 +771,48 @@ html, body {
 
 /*ancre Realisations************************/
 
-#titleRealisations {
+
+#h2Rea {
+
+    position: relative;
+    bottom:2690px;
+    height:50px;
+    width:330px;
+    color:#2f488f;
+    left:240px;
+    font-family:Ubuntu;
+    border-top: solid #d01536;
+    border-bottom: solid #d01536;
+}
+
+#presRea {
+    position: relative;
+    height:50px;
+    width:400px;
+    color:#d01536;
+    left:240px;
+    bottom:2690px;
+    font-family:Ubuntu;
+    font-size: 20px;
+
+
+}
+
+
+#titleRealisations h2 {
 
     position: relative;
     font-family: Ubuntu;
     font-size:40px;
-    bottom:2800px;
-    right:0px;
+    bottom:3880px;
+    right:400px;
     /* writing-mode: vertical-lr;
     text-orientation: upright; */
     color: white;
     background-color: #f4ab0f ;
     width:2000px;
     height: 59px;
-    padding-top:0px;
+    padding-top:10px;
 
 
 
@@ -793,9 +821,250 @@ html, body {
 #carouselRea {
 
     position: relative;
-    bottom:900px;
-    height: 500px;
-    width:1000px;
+    bottom:2710px;
+    height: 300px;
+    width:440px;
+    left:240px;
+
+}
+
+#titleCarou1 {
+
+    position: relative;
+    color:#2f488f;
+    font-family: Ubuntu;
+    left:410px;
+    bottom:2350px;
+    height:20px;
+    width:50px;
+
+
+}
+
+#titleCarou2 {
+
+    position: relative;
+    color:#2f488f;
+    font-family: Ubuntu;
+    left:1000px;
+    bottom:2370px;
+    height:20px;
+    width:50px;
+
+
+}
+
+#titleCarou3 {
+
+    position: relative;
+    color:#2f488f;
+    font-family: Ubuntu;
+    left:1570px;
+    bottom:2390px;
+    height:20px;
+    width:100px;
+
+
+}
+
+#flip {
+
+    position: relative;
+    font-family: Ubuntu;
+    bottom:320px;
+    left:0px;
+    height:20px;
+    width: 440px;
+    padding: 0px;
+    text-align: center;
+    background-color: #2f488f;
+    color: white;
+
+}
+
+#flip:hover {
+
+    position: relative;
+    font-family: Ubuntu;
+    bottom:320px;
+    left:0px;
+    height:20px;
+    width: 440px;
+    padding: 0px;
+    text-align: center;
+    background-color: #f4ab0f ;
+    color: #2f488f;
+
+}
+
+
+
+#panel {
+    position: relative;
+    font-family: Ubuntu;
+    bottom:320px;
+    left:0px;
+    height:300px;
+    width: 440px;
+    text-align: left;
+    background-color: #2f488f;
+    padding: 50px;
+    display: none;
+    color: white;
+    opacity:0.9;
+
+}
+
+#panel a {
+
+    color: white;
+
+}
+
+#panel span {
+
+    text-decoration: underline;
+}
+
+#carouselRea2 {
+
+    position: relative;
+    bottom:3010px;
+    height: 300px;
+    width:440px;
+    left:800px;
+
+}
+
+
+
+#flip2 {
+
+    position: relative;
+    font-family: Ubuntu;
+    bottom:320px;
+    left:0px;
+    height:20px;
+    width: 440px;
+    padding: 0px;
+    text-align: center;
+    background-color: #2f488f;
+    color: white;
+
+}
+
+#flip2:hover {
+
+    position: relative;
+    font-family: Ubuntu;
+    bottom:320px;
+    left:0px;
+    height:20px;
+    width: 440px;
+    padding: 0px;
+    text-align: center;
+    background-color: #f4ab0f ;
+    color: #2f488f;
+
+}
+
+
+
+#panel2 {
+    position: relative;
+    font-family: Ubuntu;
+    bottom:320px;
+    left:0px;
+    height:300px;
+    width: 440px;
+    text-align: left;
+    background-color: #2f488f;
+    padding: 50px;
+    display: none;
+    color: white;
+    opacity:0.9;
+
+}
+
+#panel2 span {
+
+    text-decoration: underline;
+}
+
+#panel2 a {
+
+    color: white;
+
+}
+
+#carouselRea3 {
+
+    position: relative;
+    bottom:3310px;
+    height: 300px;
+    width:440px;
+    left:1350px;
+
+}
+
+
+
+#flip3 {
+
+    position: relative;
+    font-family: Ubuntu;
+    bottom:320px;
+    left:0px;
+    height:20px;
+    width: 440px;
+    padding: 0px;
+    text-align: center;
+    background-color: #2f488f;
+    color: white;
+
+}
+
+#flip3:hover {
+
+    position: relative;
+    font-family: Ubuntu;
+    bottom:320px;
+    left:0px;
+    height:20px;
+    width: 440px;
+    padding: 0px;
+    text-align: center;
+    background-color: #f4ab0f ;
+    color: #2f488f;
+
+}
+
+
+
+#panel3 {
+    position: relative;
+    font-family: Ubuntu;
+    bottom:320px;
+    left:0px;
+    height:300px;
+    width: 440px;
+    text-align: left;
+    background-color: #2f488f;
+    padding: 50px;
+    display: none;
+    color: white;
+    opacity:0.9;
+
+}
+
+#panel3 span {
+
+    text-decoration: underline;
+}
+
+#panel3 a {
+
+    color: white;
 
 }
 
@@ -803,13 +1072,129 @@ html, body {
 
 
 
+/*ancre disponibilités****************/
 
 
+#cwsdCal {
+
+    position: relative;
+    bottom:3800px;
+    left:450px;
+}
+
+#titleDispo h2 {
+
+    position: relative;
+    font-family: Ubuntu;
+    font-size:40px;
+    bottom:4450px;
+    right:400px;
+    /* writing-mode: vertical-lr;
+    text-orientation: upright; */
+    color: white;
+    background-color: #f4ab0f ;
+    width:2000px;
+    height: 59px;
+    padding-top:10px;
+
+
+
+}
+
+#titleDispo p {
+
+    position: relative;
+    font-family: Ubuntu;
+    color: #2f488f;
+    font-size: 15px;
+    bottom:4190px;
+    left:400px;
+    text-align: center;
+
+}
+
+#glyphiconDown2 {
+
+    position: relative;
+    top:30px;
+    right:180px;
+
+}
+
+#glyphiconDown2:hover {
+
+    position: relative;
+    top:30px;
+    right:180px;
+    color:#f4ab0f;
+
+}
 
 
 /*** images ***************************************************************************/
 
 
+
+#clock{
+
+    position: relative;
+    height:600px;
+    width:800px;
+    opacity:0.2;
+    bottom:3300px;
+    left:0px;
+
+
+}
+#abstract2{
+
+    position: relative;
+    height:600px;
+    width:800px;
+    opacity:1;
+    bottom:3000px;
+    left:1300px;
+
+
+}
+
+
+#enCoursPix{
+
+    position: relative;
+    height:300px;
+    width:440px;
+
+}
+
+#smdcapt3 {
+
+    position: relative;
+    height:300px;
+    width:440px;
+}
+
+
+#smdcapt4 {
+
+    position: relative;
+    height:300px;
+    width:440px;
+}
+
+#niceDiving {
+
+    position: relative;
+    height:300px;
+    width:440px;
+}
+
+#cwsdCapture2 {
+
+    position: relative;
+    height:300px;
+    width:440px;
+}
 
 
 #loveCoding {
