@@ -16,6 +16,19 @@ $(document).ready(function(){
         $("#panel3").slideToggle("slow");
     });
 
+    $('#clickAcc').click(function() {
+        $('html,body').animate({scrollTop: $("#videoHomepage").offset().top}, 'slow'      );
+    });
+
+    $('#clickPres').click(function() {
+        $('html,body').animate({scrollTop: $("#presH2").offset().top}, 'slow'      );
+    });
+
+
+    $('#clickSer').click(function() {
+        $('html,body').animate({scrollTop: $("#serh2").offset().top}, 'slow'      );
+    });
+
 
 
 

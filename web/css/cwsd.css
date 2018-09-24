@@ -1,12 +1,31 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    height:100%;
+html{
+
 }
 
-/**header******************/
+body {
+    overflow-x: hidden;
 
-/***slidehopage***/
+
+
+
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#main {
+
+    overflow: hidden;
+    height:4600px;
+}
+/**header***************************************************************************/
+
+/***slidehopage********************************************/
 
 
 #slideHomepage2 {
@@ -115,7 +134,7 @@ html, body {
 }
 
 
-/*titleSlideH********************/
+/*titleSlideH****************************************************/
 
 #titleSlideH {
 
@@ -282,7 +301,7 @@ html, body {
 
 }
 
-/*********keyframe************/
+/*********keyframe*******************************************************/
 
 @keyframes textloop {
     0% {opacity:0;}
@@ -306,7 +325,7 @@ html, body {
 
 
 
-/******* Navbar ***********************************/
+/******* Navbar *********************-*****************************************/
 
 #cwsdNavbar {
 
@@ -362,7 +381,14 @@ html, body {
 
 
 
-/*********ancre presentation******/
+/*********ancre presentation********************************************************/
+
+#sectPres {
+
+    position: relative;
+
+    
+}
 
 #ancrePresentation{
 
@@ -539,7 +565,7 @@ html, body {
     position: relative;
     font-family: Ubuntu;
     font-size:40px;
-    bottom:3450px;
+    bottom:1700px;
     right:400px;
     /* writing-mode: vertical-lr;
     text-orientation: upright; */
@@ -557,11 +583,11 @@ html, body {
 #h2Ser {
 
     position: relative;
-    bottom:1595px;
+    top:80px;
     height:50px;
     width:330px;
     color:#2f488f;
-    right:150px;
+    right:5px;
     font-family:Ubuntu;
     border-top: solid #d01536;
     border-bottom: solid #d01536;
@@ -572,8 +598,8 @@ html, body {
     height:200px;
     width:400px;
     color:#d01536;
-    right:150px;
-    bottom:1590px;
+    right:5px;
+    top:80px;
     font-family:Ubuntu;
     font-size: 20px;
 
@@ -586,7 +612,8 @@ html, body {
     font-size: 19px;
     font-family: Ubuntu;
     color:#2f488f;
-    bottom:2430px;
+    bottom:780px;
+    right:65px;
 
 }
 
@@ -596,8 +623,8 @@ html, body {
     font-size: 19px;
     font-family: Ubuntu;
     color:#2f488f;
-    bottom:2430px;
-    right:80px;
+    bottom:780px;
+    right:65px;
 
 }
 
@@ -607,8 +634,8 @@ html, body {
     font-size: 19px;
     font-family: Ubuntu;
     color:#2f488f;
-    bottom:2595px;
-    left:550px;
+    bottom:860px;
+    left:385px;
 
 }
 
@@ -618,8 +645,8 @@ html, body {
     font-size: 19px;
     font-family: Ubuntu;
     color:#2f488f;
-    bottom:2590px;
-    left:510px;
+    bottom:855px;
+    left:385px;
 
 }
 
@@ -629,8 +656,8 @@ html, body {
     font-size: 19px;
     font-family: Ubuntu;
     color:#2f488f;
-    bottom:2750px;
-    left:1060px;
+    bottom:950px;
+    left:835px;
 
 }
 
@@ -640,11 +667,22 @@ html, body {
     font-size: 19px;
     font-family: Ubuntu;
     color:#2f488f;
-    bottom:2750px;
-    left:1020px;
+    bottom:950px;
+    left:835px;
 
 }
 
+#ancreServices {
+
+    position: relative;
+    height:50px;
+    width:50px;
+    bottom:1650px;
+    right:700px;
+
+
+
+}
 
 
 /*overlay***************/
@@ -653,34 +691,40 @@ html, body {
 #imgSer1 {
 
     position: relative;
-    width: 45%;
+    width: 496px;
+    height:335px;
     /*background-color: red;*/
-    bottom:1750px;
-    right:460px;
-    padding-right:-15px;
+    bottom:80px;
+    right:50px;
+    padding-right:10px;
+    padding-bottom: 2px;
 
 }
 
 #imgSer2 {
 
     position: relative;
-    width: 45%;
+    width: 496px;
+    height:345px;
     /*background-color: red;*/
-    bottom:2091px;
-    left:60px;
-    padding-right:-15px;
+    bottom:360px;
+    left:400px;
+    padding-right:10px;
+    padding-bottom: 2px;
+
 
 }
 
 #imgSer3 {
 
     position: relative;
-    width: 45%;
-    height: 345px;
+    width: 496px;
+    height:345px;
     /*background-color: red;*/
-    bottom:2435px;
-    left:580px;
-    padding-right: 130px;
+    bottom:650px;
+    left:850px;
+    padding-right:10px;
+    padding-bottom: 2px;
 
 }
 
@@ -727,11 +771,11 @@ html, body {
 #code {
 
     position: relative;
-    height:auto;
+    height:100.5%;
     display: block;
     width:110%;
     right:15px;
-    padding-right:18px;
+    padding-right:22px;
 
 
 }
@@ -739,11 +783,11 @@ html, body {
 #acquisitionImg {
 
     position: relative;
-    height:auto;
+    height:100.5%;
     display: block;
     width:110%;
     right:15px;
-    padding-right:18px;
+    padding-right:22px;
 
 
 }
@@ -751,10 +795,11 @@ html, body {
 #socialMedia {
 
     position: relative;
-    height:345px;
+    height:100.5%;
     display: block;
-    width:139.5%;
+    width:110%;
     right:15px;
+    padding-right:22px;
 
 
 }
@@ -771,11 +816,24 @@ html, body {
 
 /*ancre Realisations************************/
 
+#sectRea {
+
+    position: relative;
+    bottom:600px;
+
+}
+
+#artRea {
+
+    position: relative;
+    bottom:400px;
+}
+
 
 #h2Rea {
 
     position: relative;
-    bottom:2690px;
+    top:50px;
     height:50px;
     width:330px;
     color:#2f488f;
@@ -791,7 +849,7 @@ html, body {
     width:400px;
     color:#d01536;
     left:240px;
-    bottom:2690px;
+    top:50px;
     font-family:Ubuntu;
     font-size: 20px;
 
@@ -804,7 +862,7 @@ html, body {
     position: relative;
     font-family: Ubuntu;
     font-size:40px;
-    bottom:3880px;
+    bottom:1530px;
     right:400px;
     /* writing-mode: vertical-lr;
     text-orientation: upright; */
@@ -821,7 +879,7 @@ html, body {
 #carouselRea {
 
     position: relative;
-    bottom:2710px;
+    bottom:10px;
     height: 300px;
     width:440px;
     left:240px;
@@ -834,7 +892,7 @@ html, body {
     color:#2f488f;
     font-family: Ubuntu;
     left:410px;
-    bottom:2350px;
+    top:350px;
     height:20px;
     width:50px;
 
@@ -847,7 +905,7 @@ html, body {
     color:#2f488f;
     font-family: Ubuntu;
     left:1000px;
-    bottom:2370px;
+    top:330px;
     height:20px;
     width:50px;
 
@@ -860,7 +918,7 @@ html, body {
     color:#2f488f;
     font-family: Ubuntu;
     left:1570px;
-    bottom:2390px;
+    top:310px;
     height:20px;
     width:100px;
 
@@ -929,7 +987,7 @@ html, body {
 #carouselRea2 {
 
     position: relative;
-    bottom:3010px;
+    bottom:310px;
     height: 300px;
     width:440px;
     left:800px;
@@ -1000,7 +1058,7 @@ html, body {
 #carouselRea3 {
 
     position: relative;
-    bottom:3310px;
+    bottom: 610px;
     height: 300px;
     width:440px;
     left:1350px;
@@ -1074,11 +1132,30 @@ html, body {
 
 /*ancre disponibilités****************/
 
+#sectDispo {
+
+    position: relative;
+    bottom:2000px;
+
+}
+
+#artDispo {
+
+    position: relative;
+    bottom: 0px;
+}
+
+#dispoClock {
+
+    position: relative;
+    bottom:1600px;
+}
+
 
 #cwsdCal {
 
     position: relative;
-    bottom:3800px;
+    bottom:100px;
     left:450px;
 }
 
@@ -1087,7 +1164,7 @@ html, body {
     position: relative;
     font-family: Ubuntu;
     font-size:40px;
-    bottom:4450px;
+    bottom:750px;
     right:400px;
     /* writing-mode: vertical-lr;
     text-orientation: upright; */
@@ -1107,7 +1184,7 @@ html, body {
     font-family: Ubuntu;
     color: #2f488f;
     font-size: 15px;
-    bottom:4190px;
+    bottom:500px;
     left:400px;
     text-align: center;
 
@@ -1131,6 +1208,96 @@ html, body {
 }
 
 
+/*Ancre Contact**************************/
+
+#sectContact {
+
+    position: relative;
+    bottom:2200px;
+    margin:0;
+}
+
+#contPhone {
+
+    position: relative;
+    bottom: 280px;
+    right: 490px;
+    opacity: 0.5;
+    height: 400px;
+    width: auto;
+
+
+
+}
+
+#contWriter {
+
+    position: relative;
+    bottom: 680px;
+    left: 930px;
+    opacity: 0.5;
+    height: 400px;
+    width: auto;
+
+}
+
+#titleContact {
+
+    position: relative;
+    top: 200px;
+
+}
+
+
+#titleContact h2 {
+
+    position: relative;
+    font-family: Ubuntu;
+    font-size:40px;
+    bottom:270px;
+    right:400px;
+    /* writing-mode: vertical-lr;
+    text-orientation: upright; */
+    color: white;
+    background-color: #f4ab0f ;
+    width:2000px;
+    height: 59px;
+    padding-top:10px;
+
+}
+
+
+#titleContact p {
+
+    position: relative;
+    height: 50px;
+
+}
+
+/************************footer*************************************/
+
+footer {
+
+    background-color: #2f488f;
+    height: 300px;
+    width:100%;
+    margin:0;
+    padding:0;
+    position: absolute;
+
+
+}
+
+footer p {
+
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-family: Ubuntu, sans-serif;
+}
+
+
+
 /*** images ***************************************************************************/
 
 
@@ -1141,7 +1308,7 @@ html, body {
     height:600px;
     width:800px;
     opacity:0.2;
-    bottom:3300px;
+    top:2000px;
     left:0px;
 
 
@@ -1310,12 +1477,12 @@ html, body {
 
 }
 
-#stop {
+/*#stop {
     position: relative;
-    bottom:2435px;
+    bottom:435px;
     left:70px;
     height:15px;
-}
+}*/
 
 #board {
 
@@ -1362,19 +1529,19 @@ html, body {
 }
 
 
-#stop2 {
+/*#stop2 {
     position: relative;
-    bottom:2600px;
+    bottom:600px;
     left:600px;
     height:15px;
 }
 
 #stop3 {
     position: relative;
-    bottom:2755px;
+    bottom:755px;
     left:1125px;
     height:15px;
-}
+}*/
 
 
 #idea {
