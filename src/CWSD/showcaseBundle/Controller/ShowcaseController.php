@@ -25,4 +25,14 @@ class ShowcaseController extends Controller
 
         return new Response($content);
     }
+
+    public function devAction()
+
+    {
+        $content=$this
+            ->get('templating')
+            ->render('CWSDshowcaseBundle:Showcase:dev.html.twig');
+
+        return new Response($content);
+    }
 }

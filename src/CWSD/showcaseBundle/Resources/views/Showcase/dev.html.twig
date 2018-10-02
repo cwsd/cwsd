@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CWSD dev</title>
+
+    {% stylesheets 'css/cwsd.css' %}
+    <link  rel="stylesheet" href="{{ asset('css/cwsd.css') }}" type="text/css" >
+    <link  rel="stylesheet" href="{{ asset('css/bootstrap.css') }}" type="text/css" >
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+    <link href="http://fonts.googleapis.com/css?family=Fenix" rel="stylesheet" type="text/css">
+    {% endstylesheets %}
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+
+<div id="mainDev">
+
+
+    <header id="headerDev">
+
+        {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+        <img id="coderDev" src="{{ asset('images/coder.jpg') }}" alt="" />
+        {% endimage %}
+
+        <div id="headerDevText">
+
+            <h1>
+                DEVELOPPEMENT WEB
+            </h1>
+
+            <h2>
+                <em>Sites et applications mobiles</em>
+            </h2>
+
+            <hr id="hrDev">
+            <hr id="hrDev2">
+            <hr id="hrDev3">
+            <hr id="hrDev4">
+            <hr id="hrDev5">
+            <hr id="hrDev6">
+
+
+            <p id="headerDevTitle">Notre méthodologie</p>
+            <p id="headerDevTitle2">Sites vitrines & évènementiels</p>
+            <p id="headerDevTitle3">Sites e-commerce</p>
+            <p id="headerDevTitle4">Applications mobiles</p>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </header>
+
+
+
+    <nav class="navbar navbar-fixed-top" id="cwsdNavbar">
+        <div class="container-fluid" id="navContainer">
+            <div class="navbar-header">
+
+                <a href="{{ path ('cwsd_homepage') }}"> {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                    <img id="cwsdLogo2" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
+                    {% endimage %}
+
+                </a>
+
+            </div>
+
+
+            <ul class="nav navbar-nav" id="cwsdUl">
+                <li><a href="{{ path ('cwsd_homepage') }}"id="clickAcc2">Accueil</a></li>
+                <li><a href="#" id="clickPres2">Présentation</a></li>
+                <li><a href="#" id="clickSer2">Services</a></li>
+                <li><a href="#" id="clickRea2">Réalisations</a></li>
+                <li><a href="#" id="clickDis2">Disponibilités</a></li>
+                <li><a href="#">Devis</a></li>
+                <li><a href="#" id="clickCon2">Contact</a></li>
+
+
+            </ul>
+        </div>
+
+
+
+    </nav>
+
+    <section id="sectDev">
+
+        <article>
+
+            <p>
+
+                test
+
+            </p>
+
+
+
+
+        </article>
+
+
+        <aside>
+
+
+
+        </aside>
+
+
+    </section>
+
+</div>
+
+
+<footer id="footDev">
+
+    <p>footer</p>
+
+</footer>
+
+
+</body>
+
+
+{% javascripts 'js/cwsd.js' %}
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/cwsd.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/bootstrap.js') }}"></script>
+
+{% endjavascripts %}
+
+</html>
+

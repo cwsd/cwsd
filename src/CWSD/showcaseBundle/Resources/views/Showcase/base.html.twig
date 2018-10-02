@@ -180,9 +180,11 @@
         <div class="container-fluid" id="navContainer">
             <div class="navbar-header">
 
-                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-                <img id="cwsdLogo2" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
-                {% endimage %}
+                <a href="{{ path ('cwsd_homepage') }}"> {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                    <img id="cwsdLogo2" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
+                    {% endimage %}
+
+                </a>
 
             </div>
 
@@ -191,10 +193,10 @@
                 <li><a href="#" id="clickAcc">Accueil</a></li>
                 <li><a href="#" id="clickPres">Présentation</a></li>
                 <li><a href="#" id="clickSer">Services</a></li>
-                <li><a href="#">Réalisations</a></li>
-                <li><a href="#">Disponibilités</a></li>
+                <li><a href="#" id="clickRea">Réalisations</a></li>
+                <li><a href="#" id="clickDis">Disponibilités</a></li>
                 <li><a href="#">Devis</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" id="clickCon">Contact</a></li>
 
 
             </ul>
@@ -203,6 +205,8 @@
 
 
     </nav>
+
+    <div id="scrollUp"><span class="glyphicon glyphicon-chevron-up " id="glyphiconUp"></span></div>
 
 
     <section id="sectPres">{#ancre presentation************************************#}
@@ -326,7 +330,7 @@
                     <div class="overlay" id="overlaySer1">
                         <div class="text">
 
-                            <button class="button " id="buttonDev">En savoir plus</button>
+                           <a href="{{ path ('cwsd_devpage') }}"> <button class="button " id="buttonDev">En savoir plus</button></a>
 
                         </div>
                     </div>
@@ -523,7 +527,7 @@
                     <div id="descClient"><span>Client :</span> &nbsp;&nbsp;Spotmydive</div>
                     <div id="descMission"><span>Mission :</span>&nbsp;&nbsp; Maintenance application web</div>
                     <div id="descStat"><span>Statut :</span> &nbsp; Online</div>
-                    <div id="descSite"><a href="https://www.spotmydive.com/fr/" target="_blank">Site</a></div>
+                    <a href="https://www.spotmydive.com/en" target="_blank"><div id="descSite">Site</div></a>
 
 
                     <br>
@@ -665,7 +669,7 @@
 
         <aside>
             <div class="container" id="titleRealisations">
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <h2 id="reah2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     REALISATIONS
 
@@ -705,7 +709,7 @@
 
         <aside>
             <div class="container" id="titleDispo">
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <h2 id="dish2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     DISPONIBILITES
 
@@ -726,7 +730,7 @@
 
         <aside>
             <div class="container" id="titleContact">
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <h2 id="conh2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     CONTACT
 

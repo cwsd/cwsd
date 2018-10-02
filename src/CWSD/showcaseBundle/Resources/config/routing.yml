@@ -2,3 +2,8 @@ cwsd_homepage:
     path:     /home
     defaults: { _controller: CWSDshowcaseBundle:Showcase:index }
 
+cwsd_devpage:
+    path:     /dev
+    defaults: { _controller: CWSDshowcaseBundle:Showcase:dev }
+
+
