@@ -53,6 +53,10 @@ $(document).ready(function(){
         $('html,body').animate({scrollTop: $("#videoHomepage").offset().top},'slow');
     });
 
+    $('#clickGes,#headerDevTitle').click(function() {
+        $('html,body').animate({scrollTop: $("#h2Meth").offset().top},'slow');
+    });
+
 
 
 

@@ -1427,6 +1427,38 @@ footer p {
 
 /*** images ***************************************************************************/
 
+#knowledge {
+
+    position: relative;
+    bottom:1480px;
+    opacity:0.3;
+    left:50px;
+    transform : rotate(-45deg);
+
+
+}
+
+#knowledge2 {
+
+    position: relative;
+    bottom:1480px;
+    opacity:0.3;
+    left:750px;
+    transform : rotate(45deg);
+
+
+}
+
+#knowledge3 {
+
+    position: relative;
+    bottom:1360px;
+    opacity:0.3;
+    left:900px;
+    transform : rotate(0deg);
+
+
+}
 
 
 #clock{
@@ -1702,16 +1734,14 @@ footer p {
 /********************************************************PAGE DEV*********************/
 
 #mainDev {
+    height:3900px;
 
-    top:0;
 
 }
 
-#sectDev {
 
-    position: relative;
-    height:1500px;
-}
+
+
 
 #headerDev {
 
@@ -1720,6 +1750,13 @@ footer p {
     height:950px;
 
 
+
+}
+
+#headerDevText {
+
+    position: relative;
+    height:400px;
 }
 
 #headerDevText h1{
@@ -1730,6 +1767,8 @@ footer p {
     font-family: Ubuntu, sans-serif;
     font-size: 60px;
     bottom:400px;
+    animation-name: devTitleFade;
+    animation-duration: 3s;
 
 }
 
@@ -1737,10 +1776,12 @@ footer p {
 
     position: relative;
     left:545px;
-    color: white;
+    color: #d01536;
     font-family: Ubuntu, sans-serif;
     font-size: 35px;
     bottom:420px;
+    animation-name: devTitleFade;
+    animation-duration: 3s;
 
 }
 
@@ -1765,6 +1806,7 @@ footer p {
     animation-duration:3s;
     transform : rotate(90deg);
 
+
 }
 
 #hrDev3 {
@@ -1775,6 +1817,7 @@ footer p {
     width:150px;
     animation-name: hrDevSlide3;
     animation-duration:3s;
+
 
 }
 
@@ -1787,6 +1830,7 @@ footer p {
     animation-name: hrDevSlide3;
     animation-duration:3s;
 
+
 }
 
 #hrDev5 {
@@ -1798,6 +1842,7 @@ footer p {
     animation-name: hrDevSlide3;
     animation-duration:3s;
 
+
 }
 
 #hrDev6 {
@@ -1808,6 +1853,7 @@ footer p {
     width:150px;
     animation-name: hrDevSlide3;
     animation-duration:3s;
+
 
 }
 
@@ -1855,16 +1901,18 @@ footer p {
     bottom:600px;
     left:1210px;
     height: 50px;
-    width:300px;
-    background-color: white;
-    border-radius: 10px;
+    width:380px;
     font-family: Ubuntu, sans-serif;
     font-size: 30px;
-    color: #2f488f;
+    color: white;
     text-align: center;
     animation-name: devTitleFade;
     animation-duration: 3s;
 }
+
+
+
+
 
 #headerDevTitle2 {
 
@@ -1872,12 +1920,10 @@ footer p {
     bottom:505px;
     left:1210px;
     height: 50px;
-    width:430px;
-    background-color: white;
-    border-radius: 10px;
+    width:500px;
     font-family: Ubuntu, sans-serif;
     font-size: 30px;
-    color: #2f488f;
+    color: white;
     text-align: center;
     animation-name: devTitleFade;
     animation-duration: 3s;
@@ -1889,12 +1935,10 @@ footer p {
     bottom:385px;
     left:1210px;
     height: 50px;
-    width:300px;
-    background-color: white;
-    border-radius: 10px;
+    width:330px;
     font-family: Ubuntu, sans-serif;
     font-size: 30px;
-    color: #2f488f;
+    color: white;
     text-align: center;
     animation-name: devTitleFade;
     animation-duration: 3s;
@@ -1906,16 +1950,35 @@ footer p {
     bottom:280px;
     left:1210px;
     height: 50px;
-    width:330px;
-    background-color: white;
-    border-radius: 10px;
+    width:390px;
     font-family: Ubuntu, sans-serif;
     font-size: 30px;
-    color: #2f488f;
+    color: white;
     text-align: center;
     animation-name: devTitleFade;
     animation-duration: 3s;
 }
+
+#headerDevTitle:hover {
+
+    color: #2f488f;
+}
+
+#headerDevTitle2:hover {
+
+    color: #2f488f;
+}
+
+#headerDevTitle3:hover {
+
+    color: #2f488f;
+}
+
+#headerDevTitle4:hover {
+
+    color: #2f488f;
+}
+
 
 
 
@@ -1926,9 +1989,308 @@ footer p {
 
 
 }
+/************************* methodologie *************/
 
 
-/************************** foodev **************/
+#sectMeth {
+
+    position: relative;
+    height:1300px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    color: #2f488f;
+}
+
+#artMeth {
+
+    position: relative;
+    height:1300px;
+
+
+}
+
+
+
+
+
+
+#h2Meth {
+
+    position: relative;
+    top:5px;
+    height:50px;
+    width:350px;
+    color:#2f488f;
+    left:950px;
+    font-family:Ubuntu;
+    border-top: solid #d01536;
+    border-bottom: solid #d01536;
+
+}
+
+#methP1 {
+
+    position: relative;
+    height:20px;
+    width:500px;
+    color:#d01536;
+    left:950px;
+    bottom: 0px;
+    font-family:Ubuntu;
+    font-size: 20px;
+}
+
+#methCasc  {
+
+    position: relative;
+    bottom: 600px;
+    left: 950px;
+}
+
+#methAgile  {
+
+    position: relative;
+    bottom: 1380px;
+    left: 50px;
+}
+
+#methEtape  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 60px;
+    left: 1200px;
+    bottom : 600px;
+    color:#f4ab0f;
+}
+
+#methEtape span  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 20px;
+    left: 0px;
+    top : 0px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color:#2f488f;
+}
+
+#methEtape2  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 60px;
+    left: 1200px;
+    bottom : 630px;
+    color:#f4ab0f;
+}
+
+#methEtape2 span  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 20px;
+    left: 0px;
+    top : 0px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color:#2f488f;
+}
+
+#methEtape3  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 60px;
+    left: 1200px;
+    bottom : 660px;
+    color:#f4ab0f;
+}
+
+#methEtape3 span  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 20px;
+    left: 0px;
+    top : 0px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color:#2f488f;
+}
+
+#methEtape4  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 60px;
+    left: 1200px;
+    bottom : 690px;
+    color:#f4ab0f;
+}
+
+#methEtape4 span  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 20px;
+    left: 0px;
+    top : 0px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color:#2f488f;
+}
+
+#methEtape5  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 60px;
+    left: 1200px;
+    bottom : 720px;
+    color:#f4ab0f;
+}
+
+#methEtape5 span  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 20px;
+    left: 0px;
+    top : 0px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color:#2f488f;
+}
+
+#methEtape6  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 60px;
+    left: 1200px;
+    bottom : 750px;
+    color:#f4ab0f;
+}
+
+#methEtape6 span  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 20px;
+    left: 0px;
+    top : 0px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color:#2f488f;
+}
+
+
+
+
+#methPrincipe  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 60px;
+    left: 50px;
+    bottom : 1350px;
+    color:#f4ab0f;
+}
+
+#methPrincipe span  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 20px;
+    left: 0px;
+    top : 0px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color:#2f488f;
+}
+
+#methPrincipe2  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 60px;
+    left: 50px;
+    bottom : 1350px;
+    color:#f4ab0f;
+}
+
+#methPrincipe2 span  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 20px;
+    left: 0px;
+    top : 0px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color:#2f488f;
+}
+
+#methPrincipe3  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 60px;
+    left: 50px;
+    bottom : 1350px;
+    color:#f4ab0f;
+}
+
+#methPrincipe3 span  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 20px;
+    left: 0px;
+    top : 0px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color:#2f488f;
+}
+
+#methPrincipe4  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 60px;
+    left: 50px;
+    bottom : 1350px;
+    color:#f4ab0f;
+}
+
+#methPrincipe4 span  {
+
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+    font-size : 20px;
+    left: 0px;
+    top : 0px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color:#2f488f;
+}
+
+
+
+
+/************************** footdev **************/
 
 #footDev {
 
@@ -1948,7 +2310,43 @@ footer p {
     border-radius: 50%;
     top:200px;
     left:50px;
+    animation-name: devTitleFade;
+    animation-duration: 5s;
 
 
 }
 
+#project {
+
+    position: relative;
+    height: 600px;
+    width:auto;
+    bottom:110px;
+
+}
+
+#coding2 {
+
+    position: relative;
+    left:100px;
+    top:400px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    animation-name: devTitleFade;
+    animation-duration: 5s;
+
+}
+
+
+#agileMeth {
+
+
+    position: relative;
+    height: 680px;
+    width:auto;
+    bottom:751px;
+    left:900px;
+
+
+}

@@ -41,6 +41,10 @@
         <img id="coderDev" src="{{ asset('images/coder.jpg') }}" alt="" />
         {% endimage %}
 
+        {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+        <img id="coding2" src="{{ asset('images/coding2.jpg') }}" alt="" />
+        {% endimage %}
+
         <div id="headerDevText">
 
             <h1>
@@ -59,21 +63,50 @@
             <hr id="hrDev6">
 
 
-            <p id="headerDevTitle">Notre méthodologie</p>
-            <p id="headerDevTitle2">Sites vitrines & évènementiels</p>
-            <p id="headerDevTitle3">Sites e-commerce</p>
-            <p id="headerDevTitle4">Applications mobiles</p>
+            <p id="headerDevTitle">
+
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="learning" src="{{ asset('images/learning.png') }}" alt="" />
+                {% endimage %}
+
+                Gestions de projets
+
+            </p>
+
+            <p id="headerDevTitle2">
+
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="shop" src="{{ asset('images/shop.png') }}" alt="" />
+                {% endimage %}
+
+                Sites vitrines & évènementiels
+
+            </p>
 
 
+            <p id="headerDevTitle3">
+
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="cart" src="{{ asset('images/cart.png') }}" alt="" />
+                {% endimage %}
+
+                Sites e-commerce
+
+            </p>
 
 
+            <p id="headerDevTitle4">
 
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="mobile" src="{{ asset('images/mobile.png') }}" alt="" />
+                {% endimage %}
+
+
+                Applications mobiles
+
+            </p>
 
         </div>
-
-
-
-
 
     </header>
 
@@ -83,7 +116,9 @@
         <div class="container-fluid" id="navContainer">
             <div class="navbar-header">
 
-                <a href="{{ path ('cwsd_homepage') }}"> {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <a href="{{ path ('cwsd_homepage') }}">
+
+                    {% image '@CWSDshowcaseBundle/Resources/public/images' %}
                     <img id="cwsdLogo2" src="{{ asset('images/cwsdLogo.png') }}" alt="" />
                     {% endimage %}
 
@@ -94,48 +129,137 @@
 
             <ul class="nav navbar-nav" id="cwsdUl">
                 <li><a href="{{ path ('cwsd_homepage') }}"id="clickAcc2">Accueil</a></li>
-                <li><a href="#" id="clickPres2">Présentation</a></li>
-                <li><a href="#" id="clickSer2">Services</a></li>
-                <li><a href="#" id="clickRea2">Réalisations</a></li>
-                <li><a href="#" id="clickDis2">Disponibilités</a></li>
+                <li><a href="#" id="clickGes">Gestion de projets</a></li>
+                <li><a href="#" id="clickVit">Sites vitrines/ évènementiels</a></li>
+                <li><a href="#" id="clickEcom">Sites e-commerce</a></li>
+                <li><a href="#" id="clickApp">Applications mobiles</a></li>
                 <li><a href="#">Devis</a></li>
-                <li><a href="#" id="clickCon2">Contact</a></li>
+                <li><a href="#">Contact</a></li>
 
 
             </ul>
         </div>
 
 
-
     </nav>
 
-    <section id="sectDev">
+    <section id="sectMeth">
 
-        <article>
+        <article id="artMeth">
 
-            <p>
+            <h2 id="h2Meth">NOTRE METHODOLOGIE</h2>
 
-                test
+            <p id="methP1">
+
+                S'adapter à vos besoins et délais
+
+            </p>
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="project" src="{{ asset('images/project.jpg') }}" alt="" />
+            {% endimage %}
+
+            <p id="methCasc">
+
+                Deux méthodes de gestion de projets nous permettent
+                d'y parvenir. La première, dite "en cascade",<br> se veut logique et structurée. Elle s'articule en six étapes distinctes :
+
+            </p>
+
+            <p id="methEtape">
+                1
+
+                <span>Analyse des besoins du client</span>
+
+            </p>
+
+            <p id="methEtape2">
+                2
+
+                <span>Conception et modélisation</span>
+
+            </p>
+
+            <p id="methEtape3">
+                3
+
+                <span>Planning (échéancier et budget)</span>
+
+            </p>
+
+            <p id="methEtape4">
+                4
+
+                <span>Développement</span>
+
+            </p>
+
+            <p id="methEtape5">
+                5
+
+                <span>Vérification et lancement</span>
+
+            </p>
+
+            <p id="methEtape6">
+                6
+
+                <span>Maintenance</span>
 
             </p>
 
 
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="agileMeth" src="{{ asset('images/agile.jpg') }}" alt="" />
+            {% endimage %}
 
+
+            <p id="methAgile">
+
+                La seconde dite "agile", accorde plus de place à la flexibilité et prone une grande <br>
+                interaction entre le client et son équipe de développement. Ici le projet est divisé<br>
+                en modules, validés et livrés au fur et à mesure. Cette méthode s'appuie sur 4 principes :
+
+            </p>
+
+            <p id="methPrincipe">
+                1
+
+                <span>"Les individus et leurs interactions, plus que les processus et les outils"</span>
+
+            </p>
+
+            <p id="methPrincipe2">
+                2
+
+                <span>"Des logiciels opérationnels, plus qu'une documentation exhaustive"</span>
+
+            </p>
+
+            <p id="methPrincipe3">
+                3
+
+                <span>"La collaboration avec les clients, plus que la négociation contractuelle"</span>
+
+            </p>
+
+            <p id="methPrincipe4">
+                4
+
+                <span>" L'adaptation au changement, plus que le suivi d'un plan"</span>
+
+            </p>
 
         </article>
-
 
         <aside>
 
 
-
         </aside>
-
 
     </section>
 
 </div>
-
 
 <footer id="footDev">
 
