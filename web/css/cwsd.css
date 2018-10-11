@@ -21,7 +21,7 @@ body {
 #main {
 
     overflow: hidden;
-    height:4600px;
+    height:4710px;
 }
 
 
@@ -917,6 +917,9 @@ body {
 
     position: relative;
     bottom:400px;
+    height:600px;
+    background-color: rgba(47,72,143,1);
+
 
 }
 
@@ -927,18 +930,19 @@ body {
     top:50px;
     height:50px;
     width:330px;
-    color:#2f488f;
+    color:white;
     left:240px;
     font-family:Ubuntu;
-    border-top: solid #d01536;
-    border-bottom: solid #d01536;
+    border-top: solid white;
+    border-bottom: solid white;
+
 }
 
 #presRea {
     position: relative;
     height:50px;
     width:400px;
-    color:#d01536;
+    color:#f4ab0f;
     left:240px;
     top:50px;
     font-family:Ubuntu;
@@ -953,7 +957,7 @@ body {
     position: relative;
     font-family: Ubuntu;
     font-size:40px;
-    bottom:1530px;
+    bottom:1050px;
     right:400px;
     /* writing-mode: vertical-lr;
     text-orientation: upright; */
@@ -980,7 +984,7 @@ body {
 #titleCarou1 {
 
     position: relative;
-    color:#2f488f;
+    color:#f4ab0f;
     font-family: Ubuntu;
     left:410px;
     top:350px;
@@ -993,7 +997,7 @@ body {
 #titleCarou2 {
 
     position: relative;
-    color:#2f488f;
+    color:#f4ab0f;
     font-family: Ubuntu;
     left:1000px;
     top:330px;
@@ -1006,7 +1010,7 @@ body {
 #titleCarou3 {
 
     position: relative;
-    color:#2f488f;
+    color:#f4ab0f;
     font-family: Ubuntu;
     left:1570px;
     top:310px;
@@ -1026,8 +1030,8 @@ body {
     width: 440px;
     padding: 0px;
     text-align: center;
-    background-color: #2f488f;
-    color: white;
+    background-color: white;
+    color: #2f488f;
 
 }
 
@@ -1056,23 +1060,22 @@ body {
     height:300px;
     width: 440px;
     text-align: left;
-    background-color: #2f488f;
+    background-color: #f4ab0f;
     padding: 50px;
     display: none;
-    color: white;
-    opacity:0.9;
+    color: #2f488f;
 
 }
 
 #panel a {
 
-    color: white;
+    color: #2f488f;
 
 }
 
 #panel a:hover {
 
-    color: #f4ab0f;
+    color: white;
 
 }
 
@@ -1104,8 +1107,9 @@ body {
     width: 440px;
     padding: 0px;
     text-align: center;
-    background-color: #2f488f;
-    color: white;
+    background-color: white;
+    color: #2f488f;
+
 
 }
 
@@ -1134,11 +1138,10 @@ body {
     height:300px;
     width: 440px;
     text-align: left;
-    background-color: #2f488f;
+    background-color: #f4ab0f ;
     padding: 50px;
     display: none;
-    color: white;
-    opacity:0.9;
+    color: #2f488f;
 
 }
 
@@ -1149,13 +1152,13 @@ body {
 
 #panel2 a {
 
-    color: white;
+    color: #2f488f;
 
 }
 
 #panel2 a:hover {
 
-    color: #f4ab0f;
+    color: white;
 
 }
 
@@ -1181,8 +1184,9 @@ body {
     width: 440px;
     padding: 0px;
     text-align: center;
-    background-color: #2f488f;
-    color: white;
+    background-color: white;
+    color: #2f488f;
+
 
 }
 
@@ -1211,11 +1215,10 @@ body {
     height:300px;
     width: 440px;
     text-align: left;
-    background-color: #2f488f;
+    background-color: #f4ab0f ;
     padding: 50px;
     display: none;
-    color: white;
-    opacity:0.9;
+    color: #2f488f;
 
 }
 
@@ -1226,13 +1229,13 @@ body {
 
 #panel3 a {
 
-    color: white;
+    color: #2f488f;
 
 }
 
 #panel3 a:hover {
 
-    color: #f4ab0f;
+    color: white;
 
 }
 
@@ -1245,7 +1248,7 @@ body {
 #sectDispo {
 
     position: relative;
-    bottom:1500px;
+    bottom:1020px;
 
 }
 
@@ -1290,6 +1293,8 @@ body {
 
 }
 
+
+
 #titleDispo p {
 
     position: relative;
@@ -1299,7 +1304,6 @@ body {
     bottom:1000px;
     left:800px;
     text-align: left;
-    background-color: #e7e7e7;
     height:80px;
     width:500px;
     border-radius:2px;
@@ -1307,7 +1311,10 @@ body {
     padding-left:30px;
 
 
+
 }
+
+
 
 #glyphiconDown2 {
 
@@ -1332,7 +1339,7 @@ body {
 #sectContact {
 
     position: relative;
-    bottom:2200px;
+    bottom:1720px;
     margin:0;
 }
 
@@ -1452,13 +1459,82 @@ footer p {
 #knowledge3 {
 
     position: relative;
-    bottom:1360px;
+    bottom:1390px;
     opacity:0.3;
     left:900px;
     transform : rotate(0deg);
 
 
 }
+
+
+#knowledge4 {
+
+    position: relative;
+    bottom:1360px;
+    opacity:0.3;
+    left:1500px;
+    transform : rotate(0deg);
+
+
+}
+
+#knowledge5 {
+
+    position: relative;
+    bottom:1060px;
+    opacity:0.3;
+    left:1500px;
+    transform : rotate(33deg);
+
+
+}
+
+#knowledge6 {
+
+    position: relative;
+    bottom:1060px;
+    opacity:0.3;
+    right:200px;
+    transform : rotate(-33deg);
+
+
+}
+
+#knowledge7 {
+
+    position: relative;
+    bottom:1260px;
+    opacity:0.3;
+    right:280px;
+
+
+}
+
+#knowledge8 {
+
+    position: relative;
+    bottom:1260px;
+    opacity:0.3;
+    left:1200px;
+    transform : rotate(-33deg);
+
+
+
+}
+
+#knowledge9 {
+
+    position: relative;
+    bottom:1460px;
+    opacity:0.3;
+    left:900px;
+    transform : rotate(-33deg);
+
+
+
+}
+
 
 
 #clock{
