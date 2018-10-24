@@ -35,4 +35,14 @@ class ShowcaseController extends Controller
 
         return new Response($content);
     }
+
+    public function trafficAction()
+
+    {
+        $content=$this
+            ->get('templating')
+            ->render('CWSDshowcaseBundle:Showcase:traffic.html.twig');
+
+        return new Response($content);
+    }
 }

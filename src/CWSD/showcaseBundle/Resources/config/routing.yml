@@ -6,4 +6,9 @@ cwsd_devpage:
     path:     /dev
     defaults: { _controller: CWSDshowcaseBundle:Showcase:dev }
 
+cwsd_trafficpage:
+    path:     /traffic
+    defaults: { _controller: CWSDshowcaseBundle:Showcase:traffic }
+
+
 

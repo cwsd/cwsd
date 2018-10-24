@@ -87,7 +87,7 @@
             <p id="headerDevTitle3">
 
                 {% image '@CWSDshowcaseBundle/Resources/public/images' %}
-                <img id="cart" src="{{ asset('images/cart.png') }}" alt="" />
+                <img id="debitCard" src="{{ asset('images/debitCard.png') }}" alt="" />
                 {% endimage %}
 
                 Sites e-commerce
@@ -142,6 +142,12 @@
 
 
     </nav>
+
+    <div id="scrollUp"><span class="glyphicon glyphicon-chevron-up " id="glyphiconUp"></span></div>
+
+
+
+    {#methode**************************************************************************************#}
 
     <section id="sectMeth">
 
@@ -262,6 +268,8 @@
     </section>
 
 
+    {#vitrine****************************************************************************#}
+
     <section id="sectVitrine">
 
         <div id="headerVitrine">
@@ -321,7 +329,6 @@
 
 
 
-
             </div>
 
             <div id="presVitrine3">
@@ -331,12 +338,86 @@
 
 
 
-
                 <p>
 
                     Quelque soit vos besoins nous avons la réponse technologique
 
 
+                </p>
+
+
+            </div>
+
+
+        </article>
+
+        <aside>
+
+        </aside>
+
+    </section>
+
+    {#eshop****************************************************************************#}
+
+    <section id="sectEshop">
+
+        <div id="headerEshop">
+
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="eshop" src="{{ asset('images/eshop.jpg') }}" alt="" />
+            {% endimage %}
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="eshop3" src="{{ asset('images/eshop3.jpg') }}" alt="" />
+            {% endimage %}
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="cart2" src="{{ asset('images/cart.png') }}" alt="" />
+            {% endimage %}
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="shipbox" src="{{ asset('images/shipbox.png') }}" alt="" />
+            {% endimage %}
+
+
+            <p>Sites e-commerce</p>
+
+
+
+
+
+        </div>
+
+        <article id="artEshop">
+
+            <div id="presEshop">
+                <p>
+                    Quelques chiffres sur le e-commerce en France : CA de 81,7 Milliards d'€, 1,247 milliards<br>
+                    de transactions (21% sur mobile), 37,5 millions de Français achètent en ligne (source FEVAD).
+
+                </p>
+
+            </div>
+
+            <div id="presEshop2">
+
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="code3" src="{{ asset('images/code3.jpg') }}" alt="" />
+                {% endimage %}
+
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="code4" src="{{ asset('images/code4.jpg') }}" alt="" />
+                {% endimage %}
+
+                <h3>Un site sur-mesure</h3>
+
+                <p>
+                    <br>CWSD prend en charge la conception, modélisation et développement de votre site e-commmerce. <br>
+                    Un site étant évolutif, il vous sera livré avec un systeme d'administration.<br><br><br>
+                    Dans le cadre d'une stratégie digitale globale, nous assurerons votre visibilité grâce au<br>
+                    référencement et nous établirons un contact pérenne avec votre audience via notre expertise <br>
+                    en Community Management.
 
                 </p>
 
@@ -348,19 +429,148 @@
 
 
 
+        </article>
+
+        <aside>
+
+
+        </aside>
+
+    </section>
+
+
+    {#mobile************************************************************************************#}
+
+    <section id="sectMobile">
+
+        <div id="headerMobile">
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="smartphone" src="{{ asset('images/smartphone.jpg') }}" alt="" />
+            {% endimage %}
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="tablet" src="{{ asset('images/tablet.jpg') }}" alt="" />
+            {% endimage %}
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="wifi2" src="{{ asset('images/wifi2.png') }}" alt="" />
+            {% endimage %}
+
+
+            {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+            <img id="finger" src="{{ asset('images/finger.png') }}" alt="" />
+            {% endimage %}
+
+
+            <p>Applications mobiles</p>
+
+
+
+
+
+
+        </div>
+
+        <article id="artMobile">
+
+            <div id="presMobile">
+
+                <p>L'application mobile, l'outil indispensable d'une expérience utilisateur optimale</p>
+
+            </div>
+
+            <div id="presMobile2">
+
+                <h3>Pour une stratégie cross canal</h3>
+
+            </div>
+
+            <div id="presMobile3">
+
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="split" src="{{ asset('images/split.png') }}" alt="" />
+                {% endimage %}
+
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="tower" src="{{ asset('images/tower.png') }}" alt="" />
+                {% endimage %}
+
+                {% image '@CWSDshowcaseBundle/Resources/public/images' %}
+                <img id="thumbnails" src="{{ asset('images/thumbnails.png') }}" alt="" />
+                {% endimage %}
+
+                <p>
+
+
+                    Les internautes utilisent en alternance leurs différents appareils personnels.<br><br>
+                    ILs peuvent consulter  votre site destktop, comparer les différents offres concurentes sur leurs mobiles, puis
+                    acheter sur leur tablette.
+                    Afin de s'adapter à ces usages,<br>CWSD vous accompagne dans votre choix de mobilité.
+
+                </p>
+
+
+            </div>
+
+            <div id="presMobile4">
+
+                <p>
+                    Selon vos besoins 3 choix sont possibles :<br>
+
+
+                </p>
+
+                <ul>
+                    <li><strong>l'application native</strong> :<br>
+                        développée pour un système d'exploitation donné, dans son language natif. Cette option
+                        permet une utilisation complète des ressources du terminal (gps, caméra etc...).
+                        Cependant, la maintenance est lourde et les coûts de développement conséquents.<br><br>
+                    </li>
+
+                    <li><strong>l'application mobile web</strong> : <br>
+                        développée grâce aux languages web pour un usage multiplateforme. Les coûts et les délais
+                        de développement sont réduits...tout comme les fonctionnalités.<br><br>
+                    </li>
+
+
+                    <li><strong>l'application hybride</strong> : <br>
+                    Comme son nom l'indique il s'agit d'un compromis. Techniquement,
+                    ses capacités se rapprochent d'une application native sans toutefois y arriver.
+
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+
+            <div id="presMobile5">
+
+                <p>
+                    A chaque canal, un usage spécifique. Etre présent sur chacun d'eux vous permettra de suivre vos potentiels
+                    clients tout au long du processus d'achat, de multiplier votre présence et vos chances de conversions.
+
+
+
+                </p>
+
+
+            </div>
+
 
 
 
         </article>
 
 
-
-
         <aside>
 
 
-
         </aside>
+
+
 
 
 

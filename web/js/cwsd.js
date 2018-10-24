@@ -50,11 +50,23 @@ $(document).ready(function(){
     });
 
     $('#glyphiconUp').click(function() {
-        $('html,body').animate({scrollTop: $("#videoHomepage").offset().top},'slow');
+        $('html,body').animate({scrollTop: $("#videoHomepage,#headerDev").offset().top},'slow');
     });
 
     $('#clickGes,#headerDevTitle').click(function() {
         $('html,body').animate({scrollTop: $("#h2Meth").offset().top},'slow');
+    });
+
+    $('#clickVit,#headerDevTitle2').click(function() {
+        $('html,body').animate({scrollTop: $("#headerVitrine").offset().top},'slow');
+    });
+
+    $('#clickEcom,#headerDevTitle3').click(function() {
+        $('html,body').animate({scrollTop: $("#headerEshop").offset().top},'slow');
+    });
+
+    $('#clickApp,#headerDevTitle4').click(function() {
+        $('html,body').animate({scrollTop: $("#headerMobile").offset().top},'slow');
     });
 
 

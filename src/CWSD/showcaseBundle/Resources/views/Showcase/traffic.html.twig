@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CWSD dev</title>
+
+    {% stylesheets 'css/cwsd.css' %}
+    <link  rel="stylesheet" href="{{ asset('css/cwsd.css') }}" type="text/css" >
+    <link  rel="stylesheet" href="{{ asset('css/bootstrap.css') }}" type="text/css" >
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+    <link href="http://fonts.googleapis.com/css?family=Fenix" rel="stylesheet" type="text/css">
+    {% endstylesheets %}
+
+
+</head>
+
+<body>
+
+
+<p>test</p>
+
+
+
+
+
+
+<footer id="footDev">
+
+    <p>footer</p>
+
+</footer>
+
+
+</body>
+
+
+{% javascripts 'js/cwsd.js' %}
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/cwsd.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/bootstrap.js') }}"></script>
+
+{% endjavascripts %}
+
+</html>
